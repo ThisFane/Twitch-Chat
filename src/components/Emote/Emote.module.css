@@ -1,0 +1,16 @@
+.emote {
+    height: 1.5em;
+    vertical-align: middle;
+    margin: -2px 1px;
+    animation: spawn 0.7s ease-in;
+}
+
+
+@keyframes spawn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
